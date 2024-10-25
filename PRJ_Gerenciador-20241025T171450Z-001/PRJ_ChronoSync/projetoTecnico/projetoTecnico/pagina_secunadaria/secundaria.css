@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background-color: #000;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.task-list, .task-input {
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.task-list {
+    background-color: #1c1c1c;
+    padding: 20px;
+    width: 250px;
+    border-right: 2px solid #2d2d2d;
+}
+
+.task-list h3 {
+    margin-top: 0;
+    color: #00aced;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+li input[type="checkbox"] {
+    margin-right: 10px;
+    accent-color: #00aced;
+}
+
+.task-input {
+    background-color: #1c1c1c;
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.task-input h3 {
+    margin-top: 0;
+    color: #00aced;
+}
+
+.task-input input, .task-input button {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 10px;
+}
+
+.task-input input[type="text"] {
+    background-color: #2d2d2d;
+    color: #fff;
+}
+
+.task-input input[type="date"], .task-input input[type="time"] {
+    background-color: #2d2d2d;
+    color: #00aced;
+}
+
+.task-input button {
+    background-color: #00aced;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.task-input button:hover {
+    background-color: #007c99;
+}
