@@ -1,0 +1,12 @@
+-copiar a URL do repostorio
+-abrir o CMD no desktop(cd desktop)
+-git clone https://github.com/JVitor2002/projetoTecnico.git
+- fazer o projeto
+-cd dentro do projeto
+-git add .
+-git status(para verificar mudanças)
+-git config --global user.name "usuário github"
+- ||             ||  user.email "seu email do github"
+-git commit -m "descrição mudança"
+-git push.
+-se não der, use o git pull antes
