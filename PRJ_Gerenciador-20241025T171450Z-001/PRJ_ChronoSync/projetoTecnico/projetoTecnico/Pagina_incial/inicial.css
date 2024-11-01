@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background-color: rgb(248, 250, 250);
   }
@@ -35,3 +36,16 @@ pre {
 
 
     
+=======
+.pé{ 
+    background-color: #02abc2;
+    text-align: center;
+    color: white;
+}
+.textdc{text-decoration: none;
+color: white;}
+td, th {
+    text-align: left;
+    padding: 8px;
+  }
+>>>>>>> 45cb595e2c7114567bf441098bfa4a332571a052
