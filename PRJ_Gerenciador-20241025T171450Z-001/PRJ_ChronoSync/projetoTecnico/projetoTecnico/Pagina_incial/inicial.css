@@ -1,4 +1,11 @@
-.title{
-    
+.pé{ 
     background-color: #02abc2;
+    text-align: center;
+    color: white;
 }
+.textdc{text-decoration: none;
+color: white;}
+td, th {
+    text-align: left;
+    padding: 8px;
+  }
