@@ -1,37 +1,61 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerenciamento de Tempo</title>
     <link rel="stylesheet" href="secundaria.css">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="task-input">
-            <h3>Adicionar Nova Tarefa</h3>
-            <input type="text" name="taskName" placeholder="Nome da tarefa">
-            <input type="text" name="taskDescricao" placeholder="Descrição da tarefa">
-            <input type="date">
-            <input type="time">
-            <button>Adicionar</button>
-        </div>
-    </div>
-    <div class="containerTask">
-        <div class="task-list">
-            <h3>Tarefas</h3>
+    <header>
+        <div class="container">
             <ul>
+                <div class="nav">
+                    <a href="#"><li>Home</li></a>
+                </div>
             </ul>
         </div>
-    </div>
-    <div class="containerTaskConfirmed">
-        <div class="task-list">
-            <h3>Tarefas Concluidas</h3>
-            <ul>
-            </ul>
+    </header>
+    <section class="main-content">
+        <div class="container">
+            <h1>Gerenciamento de Tempo</h1>
+            <div class="dashboard">
+                <div class="card">
+                    <h2>Atividades do Dia</h2>
+                    <ul>
+                        <li><span class="time">08:00 AM</span> - Planejamento do dia</li>
+                        <li><span class="time">09:30 AM</span> - Reunião com a equipe</li>
+                        <li><span class="time">11:00 AM</span> - Desenvolvimento de projeto</li>
+                        <li><span class="time">01:00 PM</span> - Almoço</li>
+                        <li><span class="time">02:00 PM</span> - Revisão de código</li>
+                        <li><span class="time">04:00 PM</span> - Feedback de clientes</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h2>Metas de Longo Prazo</h2>
+                    <ul>
+                        <li>Finalizar o curso de Python</li>
+                        <li>Melhorar habilidades de liderança</li>
+                        <li>Leitura de 10 livros sobre produtividade</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h2>Checklist</h2>
+                    <ul>
+                        <li><input type="checkbox"> Atualizar status das tarefas</li>
+                        <li><input type="checkbox"> Enviar relatórios para o gestor</li>
+                        <li><input type="checkbox"> Organizar a área de trabalho</li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
-    <script src="secundaria.js"></script>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 ChronoSync | Todos os direitos reservados</p>
+        </div>
+    </footer>
 </body>
 </html>
