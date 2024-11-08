@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+ 
 body {
-    background-color: rgb(248, 250, 250);
+    background-color:rgb(241, 229, 208);
   }
   
   h1 {
@@ -14,9 +14,9 @@ body {
  }
 
  nav {
-    background-color: solid blue ;
-    border: 2px solid blue;
-    border-radius: 5px; 
+    background-color: solid rgb(191, 191, 233) ;
+    border: 2px solid rgb(191, 191, 233);
+    border-radius: 5px;
     }
 
 pre {
@@ -28,15 +28,6 @@ pre {
 }
 
 
-
-
-
-
-
-
-
-    
-=======
 .pé{ 
     background-color: #02abc2;
     text-align: center;
@@ -48,4 +39,13 @@ td, th {
     text-align: left;
     padding: 8px;
   }
->>>>>>> 45cb595e2c7114567bf441098bfa4a332571a052
+
+.div a {
+  padding: 10px;
+}
+.div {
+  text-align: center;
+}
+
+   
+ 
