@@ -10,6 +10,12 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f7fa;
     color: #333;
+    background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm8zMm9jaHEzNjZ0eHQwajZpaTh4MzdqZ3cyMDEyZXF4bzhnemMybSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TRebCjNbc4dIA/giphy.gif);
+    background-size: cover;  /* Faz o GIF cobrir toda a área */
+    background-position: center;  /* Centraliza o GIF */
+    background-repeat: no-repeat; /* Evita repetição do GIF */
+    background-color: #f4f7fa;
+    color: #333;
 }
 
 ul{
@@ -25,6 +31,8 @@ h1 {
     text-align: center;
     font-size: 36px;
     margin-top: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 
 
