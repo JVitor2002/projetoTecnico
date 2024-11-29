@@ -11,11 +11,14 @@ body {
     background-color: #f4f7fa;
     color: #333;
     background-image: url(https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm8zMm9jaHEzNjZ0eHQwajZpaTh4MzdqZ3cyMDEyZXF4bzhnemMybSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TRebCjNbc4dIA/giphy.gif);
-    background-size: cover;  /* Faz o GIF cobrir toda a área */
-    background-position: center;  /* Centraliza o GIF */
-    background-repeat: no-repeat; /* Evita repetição do GIF */
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat; 
     background-color: #f4f7fa;
     color: #333;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 ul{
@@ -108,3 +111,79 @@ footer p {
         grid-template-columns: 1fr;
     }
 }
+
+
+.calendar {
+    width: 80%;   
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #dbd8d8;
+    border-radius: 8px;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.month {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 1.2em;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.calendar-body {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+}
+
+.calendar-day-name {
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+}
+
+.calendar-day {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.calendar-day:hover {
+    background-color: #e0e0e0;
+}
+
+.calendar-day.empty {
+    background-color: transparent;
+    cursor: default;
+}
+
+.main-content {
+    height: 100vh;  
+    display: flex;
+    justify-content: center;  
+    padding: 10px;
+}
+
+
